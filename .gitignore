@@ -1,10 +1,11 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Secrets and Environment
+.env
 
-# Virtual environments
-.venv
+# Database and Heavy Files
+.lancedb/
+*.pdf
+
+# Python and Virtual Env
+.venv/
+__pycache__/
+*.py[cod]
